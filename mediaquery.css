@@ -1,0 +1,51 @@
+@media only screen and (max-width:620px) {
+    .section-1 {
+        font-size: 21px !important;
+    }
+
+    .content-position {
+        top: 24% !important;
+    }
+
+    .section-3 {
+        flex-direction: column;
+    }
+
+    .section-2-position {
+        top: 158% !important;
+    }
+
+    .section-wrap {
+        flex-wrap: wrap;
+    }
+
+    .section-5 {
+        height: unset !important;
+        object-fit: unset !important;
+    }
+
+    .footer-card:hover {
+        border-radius: 39px 39px 0px 0px;
+    }
+
+    .footer-card:hover:nth-last-of-type(-n+2) {
+        border-radius: 0px 0px 39px 39px;
+    }
+
+    .sign-in-btn-active {
+        display: none;
+    }
+
+    .section-6 {
+        position: unset;
+    }
+
+    .index-value {
+        z-index: 2;
+    }
+
+    .nav-area {
+        background-color: blue;
+    }
+
+}
